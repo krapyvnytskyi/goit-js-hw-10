@@ -30,7 +30,7 @@ body {
   color: #000;
 }
 
-button {
+.but-timer {
   border-radius: 8px;
   padding: 8px 16px;
   width: 75px;
@@ -46,11 +46,11 @@ button {
   font-family: 'Montserrat', sans-serif;
 }
 
-button:hover {
+.but-timer:hover {
   background: #6c8cff;
 }
 
-button:disabled {
+.but-timer:disabled {
   background: #cfcfcf;
   color: #989898;
 }

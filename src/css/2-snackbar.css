@@ -1,0 +1,73 @@
+.delay-form {
+  display: flex;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 340px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+}
+
+.delay-form:hover {
+  border: 1px solid #000;
+}
+
+.delay-form:active {
+  border: 1px solid #4e75ff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+fieldset {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  max-width: 360px;
+  height: 78px;
+}
+
+fieldset:hover,
+fieldset:focus {
+  border: 1px solid #000;
+}
+
+.labels {
+  display: flex;
+  margin: 24px 48px 8px;
+  gap: 20px;
+}
+
+input[type='radio' i] {
+  border: 1px solid #4e75ff;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+.but-snack {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  margin-top: 24px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.but-snack:hover {
+  background: #6c8cff;
+}
